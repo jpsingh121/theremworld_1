@@ -41,5 +41,8 @@ public class HomePage extends SetupForExcel{
 	
 	@FindBy(xpath="//button/span[text()='Add']")
 	public WebElement Addbutton;
+	
+	@FindBy(xpath=".//*[@id='86-content']/section/div/div[1]/div[2]/div/div/input")
+	public WebElement EnterDreamName;
 
 }
