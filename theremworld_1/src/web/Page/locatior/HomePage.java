@@ -44,5 +44,13 @@ public class HomePage extends SetupForExcel{
 	
 	@FindBy(xpath=".//*[@id='86-content']/section/div/div[1]/div[2]/div/div/input")
 	public WebElement EnterDreamName;
-
+	
+	@FindBy(xpath=".//*[@id='86-content']/section/div/div[1]/div[2]/div/div/input")
+	public WebElement EnterDreamDetails;
+	
+	@FindBy(xpath=".//*[@id='86-content']/section/div/div[1]/div[2]/div/div/input")
+	public WebElement EnterDreamAnalysis;
+	
+	@FindBy(xpath=".//*[@id='86-content']/section/div/div[1]/div[2]/div/div/input")
+	public WebElement submitdetail;
 }
