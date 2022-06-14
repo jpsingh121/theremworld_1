@@ -37,5 +37,9 @@ public class HomePage extends SetupForExcel{
 	@FindBy(xpath="/html/body/section/section/div/section/div[1]/section/div[7]/button[2]")
 	public WebElement VerifiyText;
 	
+	
+	
+	@FindBy(xpath="//button/span[text()='Add']")
+	public WebElement Addbutton;
 
 }
